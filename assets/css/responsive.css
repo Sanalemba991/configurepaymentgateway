@@ -935,10 +935,7 @@
     padding: 12px 30px !important;
     color: var(--e-global-color-primary) !important;
   }
-  .navbar-nav .active > a {
-    color: var(--e-global-color-white) !important;
-    background-color: var(--e-global-color-secondary) !important;
-  }
+
   .navbar-nav .nav-item a:hover {
     color: var(--e-global-color-white) !important;
     background-color: var(--e-global-color-secondary) !important;
@@ -2077,6 +2074,7 @@
 }
 @media only screen and (max-width: 575px) {
   h2 {
+    margin-top: 30px;
     font-size: 30px;
     line-height: 36px;
   }

@@ -339,6 +339,7 @@ h1 {
 .h2,
 h2 {
   font-size: 2rem;
+  margin-top: 20px;
 }
 .h3,
 h3 {
@@ -9479,3 +9480,15 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+.btn-primary {
+    color: #fff;
+    background-color: #0cbcf1;
+    border-color: #0cbcf1;
+  }
+  
+  .btn-primary:hover {
+    background-color:#4fadc4; /* A slightly darker shade for hover effect */
+    border-color: #4fadc4; /* Same as background color */
+  }
+  
